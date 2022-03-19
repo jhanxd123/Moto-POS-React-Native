@@ -14,6 +14,7 @@ public class MainActivity extends ReactActivity {
     return "Moto_POS";
   }
 
+  @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(null);
   }
