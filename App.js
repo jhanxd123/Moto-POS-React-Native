@@ -1,5 +1,4 @@
-// Done Design goto ./src/screens
-// pinlogin.js
+// Finished Design goto ./src/screens
 
 import * as React from 'react';
 import { Text, View, SafeAreaView } from 'react-native';
@@ -11,6 +10,13 @@ import BottomTab from './src/navigation/bottomnav';
 import PinLogin from './src/screens/pinlogin';
 import SplashScreen from './src/screens/splashscreen';
 import Products from './src/screens/products';
+import ProductsList from './src/screens/productslistview';
+import SelectProducts from './src/screens/selectproducts';
+import SelectProductsList from './src/screens/selectproductslistview';
+import Checkout from './src/screens/checkoutitems';
+import Payment from './src/screens/paymentcashreceive';
+import PaymentSuccess from './src/screens/paymentsuccess';
+import ViewReceipt from './src/screens/viewreceipt';
 
 const Stack = createNativeStackNavigator();
 
@@ -28,7 +34,7 @@ const Stack = createNativeStackNavigator();
 const App = () => {
   return (
       <NavigationContainer>
-        <Products />
+        <SelectProducts />
       </NavigationContainer>
   );
 }
